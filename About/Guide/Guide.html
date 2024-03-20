@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cookify</title>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('Bgcook.jpg');
+      background-size: cover; 
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Comfortaa', sans-serif; 
+      height: 100vh; 
+      margin: 0; 
+      padding: 0; 
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+    }
+
+    h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 400px;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        margin-top: 20px; 
+        margin-left: 8%;
+        margin-right: 8%;
+        font-size: 24px; 
+        line-height: 1.6; 
+    }
+
+    li {
+        text-align: center;
+    }
+
+
+    nav {
+      background-color: rgba(255, 255, 255, 0.8); 
+      color: #000; 
+      font-size: 18px;
+      padding: 20px;
+      border-radius: 50px; 
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      position: fixed; 
+      margin-top: 45px;
+      margin-left: 500px;
+      margin-right: 500px;
+      top: 0; 
+      left: 0;
+      right: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      margin-left: 115px;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin-right: 50px; 
+    }
+
+    nav ul li:last-child {
+      margin-right: 0; 
+    }
+
+    nav ul li a {
+      color: #000;
+      text-decoration: none;
+      margin-left: 40px;
+      font-weight: bold;
+      transition: color 0.2s, text-decoration 0.2s; 
+    }
+
+    nav ul li a:hover {
+      color: #000; 
+      text-decoration: underline; 
+    }
+
+    .right {
+      margin-left: 50px; 
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 20px;
+      margin-left: 17%;
+    }
+
+    .btn-container a {
+      display: inline-block;
+      padding: 10px 30px;
+      margin: 0 10px;
+      color: #000;
+      text-decoration: none;
+      background-color: #fff;
+      border: 2px solid #fff;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    .btn-container a:hover {
+      background-color: transparent;
+      color: #fff;
+    }
+
+    .learn-more {
+      position: fixed;
+      bottom: 50px;
+      right: 70px;
+      color: #000;
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #fff;
+      border: 2px solid #fff;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+      opacity:  0.7;
+    }
+
+    .learn-more:hover {
+      background-color: transparent;
+      color: #fff;
+    }
+
+    img {
+      position: fixed; 
+      top: 20px;
+      left: 20px; 
+      height: 100px;
+      width: auto;
+      padding: 0; 
+      filter: invert(1);
+    }
+
+    .guide-container {
+        margin-top: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        color: #fff;
+    }
+
+    .guide-container h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .guide-container section {
+        margin-bottom: 40px;
+    }
+
+    .guide-container h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .guide-container ul {
+        list-style-type: none;
+    }
+
+    .guide-container ul li {
+        margin-bottom: 10px;
+    }
+    </style>
+</head>
+<body>
+ 
+    <img src="Cookifytransparent.png" alt="Logo">
+
+    <nav>       
+        <ul>
+          <li><a href="../../HomePage.html">Home</a></li>
+          <li><a href="../About.html">About</a></li>
+          <li><a href="Guide.html">Guide</a></li>
+          <li><a href="Contact/Contact.html">Contact</a></li>          
+        </ul>
+    </nav>
+
+    <div class="guide-container">
+        <h1>Cookiffy Guide</h1>
+        <h1>Your Ultimate Culinary Companion</h1>
+        <section>
+            <h2>Getting Started</h2>          
+            <ul>
+                <li>Explore Cookiffy: Check out our website or app to get familiar with Cookify's layout and features.</li>
+                <li>Create an Account: Sign up to unlock features like saving favorite recipes and receiving personalized recommendations.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Navigating the Guide</h2>
+            <ul>
+                <li>Sections Overview: Explore recipes, cooking techniques, ingredient spotlights, meal planning tips, and kitchen essentials.</li>
+                <li>Search and Filter: Use search and filter options to find recipes, techniques, or ingredient information quickly.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Exploring Recipes</h2>
+            <ul>
+                <li>Recipe Categories: Browse diverse categories like breakfast, appetizers, mains, desserts, and beverages.</li>
+                <li>Recipe Details: Click on recipes for instructions, ingredients, tips, and user reviews. Save favorites for later.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Engaging with the Community</h2>
+            <ul>
+                <li>Join Communities: Connect with food enthusiasts, share experiences, exchange recipes, and seek advice.</li>
+                <li>User Contributions: Share recipes, tips, and engage in discussions with other users.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Further Resources</h2>
+            <ul>
+                <li>Cooking Classes: Enroll in classes to enhance skills and learn new cuisines.</li>
+                <li>Cooking Challenges: Participate in challenges to test your creativity and skills.</li>
+                <li>Newsletter Subscription: Stay updated with the latest news and trends by subscribing to our newsletter.</li>
+            </ul>
+        </section>
+    </div>
+
+<a href="#" class="learn-more">Learn More <i class="fa fa-question-circle"></i></a>
+
+</body>
+</html>

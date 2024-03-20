@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cookify</title>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('Bgcook.jpg');
+      background-size: cover; 
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Comfortaa', sans-serif; 
+      height: 100vh; 
+      margin: 0; 
+      padding: 0; 
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+    }
+
+    h1 {
+        color: #fff;
+        text-align: left;
+        margin-left: 8%;
+        font-size: 50px;
+    }
+
+    p {
+        color: #fff;
+        text-align: left;
+        margin-top: 20px; 
+        margin-left: 8%;
+        margin-right: 8%;
+        font-size: 24px; 
+        line-height: 1.6; 
+    }
+
+    nav {
+      background-color: rgba(255, 255, 255, 0.8); 
+      color: #000; 
+      font-size: 18px;
+      padding: 20px;
+      border-radius: 50px; 
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      position: fixed; 
+      margin-top: 45px;
+      margin-left: 500px;
+      margin-right: 500px;
+      top: 0; 
+      left: 0;
+      right: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      margin-left: 115px;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin-right: 50px; 
+    }
+
+    nav ul li:last-child {
+      margin-right: 0; 
+    }
+
+    nav ul li a {
+      color: #000;
+      text-decoration: none;
+      margin-left: 40px;
+      font-weight: bold;
+      transition: color 0.2s, text-decoration 0.2s; 
+    }
+
+    nav ul li a:hover {
+      color: #000; 
+      text-decoration: underline; 
+    }
+
+    .right {
+      margin-left: 50px; 
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 20px;
+      margin-left: 17%;
+    }
+
+    .btn-container a {
+      display: inline-block;
+      padding: 10px 30px;
+      margin: 0 10px;
+      color: #000;
+      text-decoration: none;
+      background-color: #fff;
+      border: 2px solid #fff;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    .btn-container a:hover {
+      background-color: transparent;
+      color: #fff;
+    }
+
+    .learn-more {
+      position: fixed;
+      bottom: 50px;
+      right: 70px;
+      color: #000;
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #fff;
+      border: 2px solid #fff;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+      opacity:  0.7;
+    }
+
+    .learn-more:hover {
+      background-color: transparent;
+      color: #fff;
+    }
+
+    img {
+      position: fixed; 
+      top: 20px;
+      left: 20px; 
+      height: 100px;
+      width: auto;
+      padding: 0; 
+      filter: invert(1);
+    }
+    </style>
+</head>
+<body>
+ 
+    <img src="Cookifytransparent.png" alt="Logo">
+
+    <nav>       
+        <ul>
+          <li><a href="HomePage.html">Home</a></li>
+          <li><a href="About/About.html">About</a></li>
+          <li><a href="About/Guide/Guide.html">Guide</a></li>
+          <li><a href="About/Guide/Contact/Contact.html">Contact</a></li>          
+        </ul>
+    </nav>
+
+    <h1>Welcome to Cookiffy!</h1>
+    <br>
+    <p>Your premier culinary companion! Discover a world <br>of recipes, expert tips,
+     and delectable inspirations <br> tailored to elevate your cooking experience. Let Cookiffy <br>be your trusted guide on your journey to culinary excellence.</p>
+
+<div class="btn-container">
+    <a href="Getstarted.html">Get Started</a>
+</div>
+
+<a href="#" class="learn-more">Learn More <i class="fa fa-question-circle"></i></a>
+
+</body>
+</html>
